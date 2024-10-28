@@ -1,0 +1,157 @@
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.results-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+}
+  
+.results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e5e7eb;
+}
+  
+.results-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f2937;
+    margin: 0;
+}
+  
+.search-summary {
+    font-size: 16px;
+    color: #4b5563;
+}
+  
+.modify-search {
+    padding: 8px 16px;
+    background-color: #f3f4f6;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    color: #374151;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+  
+.modify-search:hover {
+    background-color: #e5e7eb;
+}
+  
+.flight-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+  
+.flight-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 20px;
+    transition: all 0.2s ease;
+}
+  
+.flight-card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+  
+.flight-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.airline-info {
+    width: 150px;
+}
+  
+.airline-name {
+    font-weight: 600;
+    color: #1f2937;
+    font-size: 16px;
+}
+  
+.flight-number {
+    color: #6b7280;
+    font-size: 14px;
+    margin-top: 4px;
+}
+  
+.flight-schedule {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-grow: 1;
+    justify-content: center;
+}
+  
+.departure, .arrival {
+    text-align: center;
+}
+  
+.time {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2937;
+}
+  
+.airport {
+    font-size: 14px;
+    color: #6b7280;
+    margin-top: 4px;
+}
+  
+.flight-duration {
+    text-align: center;
+    position: relative;
+    padding: 0 20px;
+}
+  
+.duration {
+    font-weight: 500;
+    color: #4b5563;
+}
+  
+.stops {
+    font-size: 14px;
+    color: #6b7280;
+    margin-top: 4px;
+}
+  
+.price-section {
+    text-align: right;
+    width: 150px;
+}
+  
+.price {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 8px;
+}
+  
+.select-button {
+    width: 100%;
+    padding: 8px 16px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+  
+.select-button:hover {
+    background-color: #2563eb;
+}
